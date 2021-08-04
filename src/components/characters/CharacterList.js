@@ -6,6 +6,7 @@ const CharacterList = ({ characters }) => {
   const characterElement = characters.map((character) => (
     <li key={character.id}>
       <Character
+        id={character.id}
         name={character.name}
         species={character.species}
         status={character.status}
